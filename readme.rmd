@@ -12,3 +12,9 @@ make all
 # or run tasks separately
 make task1
 make task2
+
+## Discussion 
+
+As shell radius increases, the same number of points must cover a larger spherical surface area. This decreases local point density, leading to weaker graph connectivity, which makes spectral clustering less effective.
+
+For fair comparisons, one could increase sample size with radius or set an adaptive affinity threshold.
