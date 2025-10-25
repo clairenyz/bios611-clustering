@@ -1,0 +1,14 @@
+# BIOS611 Clustering Assignment
+
+This repo implements:
+
+- **Task 1**: Gap Statistic to determine when k-means stops recovering `n` clusters as hypercube centers move closer.
+- **Task 2**: Spectral clustering on concentric shells with a `clusGap`-compatible wrapper and a Plotly 3D preview.
+
+## How to run
+
+```bash
+make all
+# or run tasks separately
+make task1
+make task2
